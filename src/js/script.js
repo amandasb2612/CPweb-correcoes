@@ -42,7 +42,7 @@ botao.addEventListener("click", function () {
     let novaImg = document.createElement("img");
     novaImg.id = "minhaImagem";
    
-    novaImg.src = "./assets/Imagem.jpg";
+    novaImg.src = "./src/assets/imgs/treino.png";
     novaImg.alt = "Imagem ilustrativa do treino";
 
     novaImg.style.width = "100%";
@@ -51,5 +51,5 @@ botao.addEventListener("click", function () {
     novaImg.style.marginTop = "15px";
     novaImg.style.display = "block";
 
-    container.appendChild(novaImagem);
+    container.appendChild(novaImg);
 });
