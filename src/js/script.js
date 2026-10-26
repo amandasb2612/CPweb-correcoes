@@ -2,17 +2,17 @@
 // MANIPULAÇÃO DO DOM - CidadeFit - ACADEMIA INTELIGENTE
 // ==========================================
 
-function Mudar() {
-    let novo = document.getElementById("nome");
+function mudar() {
+    let novo = document.getElementById("usuario_nome");
     let titulo = document.getElementById("titulo");
     
     if (novo.value.trim() !== "") {
        
-        titulo.innerHTML = "CidadeFit Tech - Aluno: ${novo.value}";
+        titulo.innerHTML = `CidadeFit Tech - Aluno: ${novo.value}`;
     }
 }
 
-function inserir {
+function inserir() {
     
     let posicaoInput = document.getElementById("posicao").value
 - 1;
