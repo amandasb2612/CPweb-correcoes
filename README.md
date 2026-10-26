@@ -17,4 +17,7 @@ JavaScript
 
 # Correção de Código
 Durante a revisão do projeto, foi necessário identificar possíveis erros e verificar se as variáveis estão declaradas e utilizadas corretamente.
+
+# Site do projeto 
+https://amandasb2612.github.io/CPweb-correcoes/
  
