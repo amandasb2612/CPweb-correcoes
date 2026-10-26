@@ -1,5 +1,5 @@
 
-- {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,6 @@
 body {
     background-color: #f4f6f9;
     color: #333;
-  
     line-height: 1.6
 }
 
@@ -21,7 +20,6 @@ body {
 }
 
 .header nav a {
-   
     color: e945;
     text-decoration: none;
     margin: 0 10px;
@@ -90,7 +88,6 @@ ul {
 .footer-content {
     max-width: 900px;
     margin: 0 auto;
-
     grid-template-columns: (auto-fit, minmax(250, 1fr));
     gap: 30px;
     margin-bottom: 30px;
